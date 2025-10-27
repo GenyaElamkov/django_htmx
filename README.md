@@ -4,3 +4,5 @@ CI/CD
 ---
 
 ![example workflow](https://github.com/github/GenyaElamkov/django_htmx/actions/workflows/github-actions.yml/badge.svg)
+
+![example workflow](https://github.com/github/docs/actions/workflows/github-actions.yml/badge.svg)
