@@ -27,7 +27,7 @@ class BookListViewTest(TestCase):
         request = self.factory.get('/books/')
         response = book_list(request)
 
-        self.assertEqual(response.status_code, 201)
+        self.assertEqual(response.status_code, 200)
 
         # self.assertIn('base.html', response.template_name)
 
