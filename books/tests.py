@@ -28,7 +28,7 @@ class BookListViewTest(TestCase):
         response = book_list(request)
 
         self.assertEqual(response.status_code, 200)
-        # Проверяем, что используется правильный шаблон
+ 
         # self.assertIn('base.html', response.template_name)
 
     # def test_book_list_returns_all_books(self):
